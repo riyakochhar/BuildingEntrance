@@ -1,0 +1,93 @@
+body{
+    background: rgb(251,183,222);
+    background: linear-gradient(90deg, rgba(251,183,222,1) 5%, rgba(187,232,100,1) 35%, rgba(77,220,191,1) 77%, rgba(0,212,255,1) 100%);
+
+}
+section{
+    background-color:darkgreen;
+    color:white;
+    border:12px solid #CDF0EA;
+    margin: 10px auto;
+    width:600px;
+    font-size: 1.3rem;
+    border-radius: 16px;
+    padding: 5px;
+    text-align: center;
+}
+
+li{
+    text-align: center;
+    padding: 10px;
+}
+table{
+    margin:auto;
+    background-color: #E4FBFF;
+    text-align: center;
+    border-collapse: collapse;
+    width:75%;
+    color: black;
+}
+td{
+    border: 2px solid black;
+    padding:5px;
+    width: 70%;
+    text-align: center;
+}
+#lastrow{
+    border-bottom: 4px solid black;
+    padding-bottom: 2px;
+}
+#firstrow{
+    border-top: 4px solid black;
+}
+#enter{
+    width: 220px;
+    height:50px;
+    color: whitesmoke;
+    background-color: #CE1F6A;
+    font-size: 1.2rem;
+    margin: 18px auto;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #E4FBFF;
+    cursor: pointer;
+}
+#enter:hover{
+    background-color: #E4FBFF;
+    box-shadow: 0 9px #CE1F6A;
+    color:#CE1F6A;
+}
+#enter:active {
+    box-shadow: 0 5px blue;
+    transform: translateY(4px);
+  }
+#delete{
+    background-color: #CE1F6A;
+    width: 100px;
+    height: 50px;
+    font-size: 1rem;
+    color:whitesmoke;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+}
+#delete:hover{
+    background-color: red;
+}
+#exit{
+    background-color: #CE1F6A;
+    width: 100px;
+    height: 50px;
+    font-size: 1rem;
+    color:whitesmoke;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+}
+#exit:hover{
+    background-color: rgb(223, 160, 45);
+}
+#submit{
+    background-color: lightgreen;
+}
